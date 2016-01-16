@@ -1,4 +1,14 @@
 /*!
+ * jquery.custom-animations.js 0.1
+ * https://github.com/yckart/jquery-custom-animations
+ *
+ *
+ * Copyright (c) 2012 Yannick Albert (http://yckart.com)
+ * Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php).
+ * 2013/02/08
+**/
+
+/*!
  * @param {number} times - The number of fades
  * @param {number} duration - The speed amount
  * @param {string} easing - The easing method
