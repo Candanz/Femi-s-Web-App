@@ -32,8 +32,17 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': {
-    view: 'index'
+  'get /': {
+    controller: 'order',
+    action: 'getOrderForm'
+  },
+  'get /orders': {
+    controller: 'order',
+    action: 'getOrders'
+  },
+  'get /menu': {
+    controller: 'menu',
+    action: 'getMenu'
   }
 
   /***************************************************************************

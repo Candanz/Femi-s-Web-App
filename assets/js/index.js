@@ -25,13 +25,13 @@ $(document).ready(function() {
         if(e.keyCode === 45 && !$('#delQuestion').is(':hidden')) removeQuestion($('form'));
     });
 
-    // $.getJSON('/femi/api/menu.php', function(items) {
-    //     for(var i = 0; i < items.length; i++ ) {
-    //         item = items[i];
-    //         menu.push({id: item.id, text: item.name, price: item.price});
-    //     }
-    //     generateQuestion(frm);
-    // });
+    $.getJSON('/menu', function(items) {
+        for(var i = 0; i < items.length; i++ ) {
+            item = items[i];
+            menu.push({id: item.id, text: item.name, price: item.price});
+        }
+        generateQuestion(frm);
+    });
 });
 
 function generateQuestion(form) {
