@@ -30,7 +30,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/anonymous node/sails user/Femi-s-Web-App.git"
+    "url": "git://github.com/Candanz/Femi-s-Web-App.git"
   },
   "author": "Stefan Candan",
   "license": "GNU"
